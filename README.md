@@ -11,17 +11,22 @@ A Simple mock-up website created for practice purposes. The intention is to soli
 ## Features
 
 - Interactive Page Navigation
+
 - Section "Reveal" Animation
+
 - Working Carousel and Tabbed Components
+
 - Modal Window
-- Export documents as Markdown, HTML and PDF
 
 ## To-do
 
 - Add media queries
+
 - Code cleaning
+
 - Minor design adjustments
-- Optimize Images
+
+- ~~Optimize Images~~
 
 ## Technologies Used
 

@@ -38,7 +38,7 @@
 .nav-bar.sticky {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.95);
-  height: 8rem;
+  height: 7rem;
 }
 
 .logo-div {
@@ -52,6 +52,10 @@
   /* padding: 0 0 0 4.8rem; */
   /* width: 16rem; */
   width: 25rem;
+}
+
+.nav-bar.sticky .logo {
+  width: 20rem;
 }
 
 .logo:hover {
@@ -361,7 +365,7 @@
 
 /* TESTIMONIALS SECTION */
 .section-testimonials {
-  padding: 15rem 0 9.6rem 0;
+  padding: 19.2rem 0 9.6rem 0;
   height: 100vh;
 }
 
@@ -575,7 +579,7 @@
 .footer__copyright {
   margin-top: 3rem;
   font-size: 1.6rem;
-  color: #888;
+  color: #aaa;
 }
 
 .footer__link.copyright__link {
