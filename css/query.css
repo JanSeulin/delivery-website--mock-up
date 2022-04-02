@@ -1,0 +1,242 @@
+@media (max-width: 600px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-size: 55%;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
+
+  .header {
+    max-width: 100vw;
+  }
+  .nav-bar {
+    max-width: 40rem;
+  }
+  .logo-div {
+    padding: 0;
+  }
+  .logo {
+    width: 25rem;
+    margin-top: 5rem;
+  }
+  .main-nav-list {
+    display: none;
+  }
+
+  .section-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    padding-top: 11rem;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    padding: 0 4rem 0 4rem;
+
+    font-size: smaller;
+  }
+
+  .hero-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading-primary {
+    font-size: 5rem;
+    line-height: 1.05;
+    /* margin-bottom: 3.2rem; */
+    color: var(--primary-color);
+    /* color: #333; */
+  }
+
+  .nav-bar.sticky {
+    display: none;
+  }
+
+  .btn.btn--learn-more {
+    justify-self: center;
+    margin-top: 8rem;
+  }
+
+  /* FEATURES SECTION */
+  .grid--2-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .feature-img {
+    display: none;
+  }
+
+  .feature-text-box .feature-icon {
+    justify-self: center;
+    align-self: center;
+  }
+
+  /* ADVANTAGES SECTION */
+
+  .section-advantages {
+    min-height: 80vh;
+    max-height: 80vh;
+    padding: 4.8rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .advantages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 95vw;
+    height: 32rem;
+    padding-bottom: 5rem;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 1.2rem 1.8rem;
+    font-size: 1.4rem;
+  }
+
+  .advantages__tab-container {
+    max-width: 70%;
+    margin: 0 auto 0 auto;
+  }
+
+  .advantages__tab {
+    margin-right: 0.2rem;
+    transform: translateY(-30%);
+  }
+
+  .advantages__tab--active {
+    transform: translateY(-52%);
+  }
+
+  .advantages__description {
+    line-height: 1.4;
+  }
+
+  .advantages__content {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    margin: 2rem 7rem 2rem 7rem;
+    /* margin: 0 auto 0 auto; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+
+  .advantages__content-text {
+    height: 100%;
+  }
+
+  .advantages__icon {
+    display: none;
+  }
+
+  .advantages__header {
+    text-align: center;
+  }
+
+  /* .advantages__content--active::after {
+    max-height: 50rem;
+  }
+
+  .advantages__content--active::before {
+    max-height: 50rem;
+  } */
+
+  /* TESTIMONIALS SECTION */
+  .section-testimonials {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding: 9.6rem 0;
+    max-height: 100vh;
+  }
+
+  .slider {
+    max-width: 95vw;
+    height: 50rem;
+  }
+
+  .slide {
+    height: 50rem;
+  }
+
+  .testimonial__photo {
+    margin-top: 2rem;
+  }
+
+  .testimonial__text {
+    padding: 2rem 7rem 2rem 7rem;
+  }
+
+  .testimonial {
+    gap: 1rem;
+  }
+
+  .slider__btn {
+    bottom: 0;
+  }
+
+  .slider__btn--left {
+    right: 22%;
+    /* transform: translate(-50%, -50%); */
+  }
+
+  .slider__btn--right {
+    right: 14%;
+    /* transform: translate(50%, -50%); */
+  }
+
+  /* FOOTER and CTA */
+  .cta-title {
+    font-size: 3.6rem;
+    text-align: center;
+  }
+
+  .footer {
+    max-width: 100vw;
+    padding: 4rem 0 12rem 0;
+    gap: 4rem;
+  }
+
+  .footer__nav {
+    margin: 0 2rem 0 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+    /* margin-top: 5rem; */
+  }
+
+  .footer__copyright {
+    text-align: center;
+    margin: 3rem 2rem 0 2rem;
+  }
+
+  /* MODAL WINDOW */
+  .modal {
+    width: 90vw;
+    background-color: #eee;
+    padding: 5rem 2rem;
+    box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+    z-index: 10000;
+    transition: all 0.5s;
+
+    border-radius: 9px;
+  }
+}
