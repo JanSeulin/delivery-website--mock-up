@@ -29,7 +29,7 @@
   display: flex;
   justify-content: space-between;
 
-  max-width: 100vw;
+  min-width: 100%;
   padding: 2rem 0rem;
   /* background-color: #fff; */
   z-index: 100;
