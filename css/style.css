@@ -184,10 +184,17 @@
 }
 
 .feature-icon {
-  font-size: 4rem;
+  /* font-size: 4rem; */
+  width: 8rem;
+  height: 8rem;
   padding: 1.2rem 1.2rem;
+
   background-color: var(--pallete-4);
   color: #3d322d;
+  fill: none;
+  stroke: #3d322d;
+  stroke-width: 8%;
+  /* fill: black; */
   border-radius: 50%;
 }
 
@@ -337,6 +344,15 @@
 .advantages__icon-1 {
   background-color: #15b9b9;
   color: var(--complementary-color-dark);
+  stroke: var(--complementary-color-dark);
+}
+
+.advantages__icon-01 {
+  stroke: var(--complementary-color-dark);
+
+  stroke-width: 5%;
+  width: 5rem;
+  height: 5rem;
 }
 
 .advantages__icon-2 {
@@ -344,9 +360,25 @@
   color: var(--pallete-1-darker);
 }
 
+.advantages__icon-02 {
+  stroke: var(--pallete-1-darker);
+
+  stroke-width: 5%;
+  width: 5rem;
+  height: 5rem;
+}
+
 .advantages__icon-3 {
   background-color: #6e81d3;
   color: var(--pallete-2-darker);
+}
+
+.advantages__icon-03 {
+  stroke: var(--pallete-2-darker);
+
+  stroke-width: 5%;
+  width: 5rem;
+  height: 5rem;
 }
 
 .btn.btn--advantages {
@@ -478,17 +510,25 @@
   transition: all 0.3s;
 }
 
-/* .arr-icon {
-  font-size: 2.4rem;
-} */
-
 .slider__btn--left {
   right: 18%;
+  width: 2.4rem;
+  height: 2.4rem;
+  stroke: var(--primary-color);
+  fill: none;
+  stroke-width: 100%;
+  /* fill: var(--primary-color); */
   /* transform: translate(-50%, -50%); */
 }
 
 .slider__btn--right {
   right: 10%;
+  width: 2.4rem;
+  height: 2.4rem;
+  stroke: var(--primary-color);
+  fill: none;
+  stroke-width: 100%;
+  /* fill: var(--primary-color); */
   /* transform: translate(50%, -50%); */
 }
 
